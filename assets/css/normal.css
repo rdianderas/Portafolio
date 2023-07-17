@@ -1,0 +1,61 @@
+:root{
+    --theme-color: #faeee7; 
+    --primary-color: black;
+    --secundary-color: #f7c9c9;
+    --text-color-inverse: white;
+    --text-color:black;
+    --navBar-shallow-color: #ff8ba7;
+    --menu-mobile-background-color:#faeee7;
+    --font-family: 'Montserrat Alternates', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 90px;   
+}
+
+.horizontal__padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical__padding{
+    padding-top: 25px;
+    padding-bottom: 25px;   
+}
+.foother
+{
+    background-color: var(--secundary-color);
+}
+.nav-foother
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (min-width:950px){
+    .horizontal__padding {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .vertical__padding{
+        padding-top: 25px;
+        padding-bottom: 25px;   
+    }
+}
+
+

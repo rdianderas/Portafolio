@@ -1,0 +1,65 @@
+/*.card {
+    border: 1px solid var(--secundary-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px var(--navBar-shallow-color);
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .card-header {
+    background-color: var(--secundary-color);
+    padding: 10px;
+    border-bottom: 1px solid var(--secundary-color);
+  }
+  
+  .card-header h3 {
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    background-color: var(--secundary-color);
+    padding: 10px;
+    border-top: 1px solid var(--secundary-color);
+  }*/
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color:var(--text-color);
+    background: rgba(255, 255, 255, .25);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(255, 139, 167, 0.3);
+    margin-top: 25px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .card p{
+    margin-bottom: 1.5rem;
+  }
+  .card a {
+    background-color:var(--secundary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  .proyectos_img
+  {
+    width: 100%;
+  }
+  .btn-secundario
+  {
+    background-color:var(--navBar-shallow-color) !important;
+  }
